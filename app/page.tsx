@@ -1,5 +1,6 @@
 "use client"
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -8,14 +9,16 @@ export default function Home() {
 
   return (
   <div className="h-screen w-screen bg-gradient-to-b from-orange-500 via-red-500 to-pink-600 flex items-center justify-center px-4">
-      <div className="w-full max-w-sm text-center text-white space-y-6">
+      <div className="w-full max-w-sm text-center text-white space-y-6 flex flex-col items-center">
         
         {/* Logo / Icon */}
-        <div className="text-6xl">🏐</div>
+        <div className="rounded-md">
+          <Image src="/logo.png" alt="Logo" width={100} height={100} className="rounded-full"/>
+        </div>
 
         {/* Title */}
         <h1 className="text-3xl font-extrabold tracking-wide">
-          Гар бөмбөг <br /> Хөгжлийн Лиг
+          Volleyball <br /> Хөгжлийн Лиг
         </h1>
 
         {/* Subtitle */}
