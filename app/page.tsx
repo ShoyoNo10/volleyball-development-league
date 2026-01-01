@@ -41,7 +41,7 @@ export default function Home() {
           Амжилтын хүснэгт
         </button>
         <button onClick={() => router.push('/calendar')} className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
-          Тоглолууд
+          Тоглолтууд
         </button>
         <button className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
           Багууд
