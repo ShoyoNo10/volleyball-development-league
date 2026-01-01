@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div className="h-screen w-screen bg-gradient-to-b from-orange-500 via-red-500 to-pink-600 flex items-center justify-center px-4">
+    <div className="h-screen w-screen bg-linear-to-b from-orange-500 via-red-500 to-pink-600 flex items-center justify-center px-4">
       <div className="w-full max-w-sm text-center text-white space-y-6 flex flex-col items-center">
         {/* Logo / Icon */}
         <div className="rounded-md">
@@ -21,13 +21,13 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-3xl font-extrabold tracking-wide">
-          Volleyball <br /> Хөгжлийн Лиг
+           Волейболын <br />Хөгжлийн Лиг
         </h1>
 
         {/* Subtitle */}
         <p className="text-sm opacity-90 leading-relaxed">
           Бэлтгэл. Өрсөлдөөн. Хөгжил. <br />
-          Гар бөмбөгийн ирээдүй эндээс эхэлнэ.
+           Волейболын ирээдүй эндээс эхэлнэ.
         </p>
 
         {/* Divider */}
