@@ -1,19 +1,22 @@
-"use client"
+"use client";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
-
 export default function Home() {
-
   const router = useRouter();
 
   return (
-  <div className="h-screen w-screen bg-gradient-to-b from-orange-500 via-red-500 to-pink-600 flex items-center justify-center px-4">
+    <div className="h-screen w-screen bg-gradient-to-b from-orange-500 via-red-500 to-pink-600 flex items-center justify-center px-4">
       <div className="w-full max-w-sm text-center text-white space-y-6 flex flex-col items-center">
-        
         {/* Logo / Icon */}
         <div className="rounded-md">
-          <Image src="/logo.png" alt="Logo" width={100} height={100} className="rounded-full"/>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={100}
+            height={100}
+            className="rounded-full"
+          />
         </div>
 
         {/* Title */}
@@ -32,21 +35,20 @@ export default function Home() {
 
         {/* CTA Button */}
         <button
-        onClick={() => router.push('/leaderboard')}
-        className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
+          onClick={() => router.push("/leaderboard")}
+          className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition"
+        >
           Амжилтын хүснэгт
         </button>
-           <button className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
+        <button onClick={() => router.push('/calendar')} className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
           Тоглолууд
         </button>
-           <button className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
+        <button className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
           Багууд
         </button>
 
         {/* Footer text */}
-        <p className="text-xs opacity-80">
-          © 2025 Development League
-        </p>
+        <p className="text-xs opacity-80">© 2025 Development League</p>
       </div>
     </div>
   );
