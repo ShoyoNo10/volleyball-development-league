@@ -43,7 +43,7 @@ export default function Home() {
         <button onClick={() => router.push('/calendar')} className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
           Тоглолтууд
         </button>
-        <button className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
+        <button onClick={() => router.push('/teams')} className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
           Багууд
         </button>
 

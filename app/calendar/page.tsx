@@ -38,7 +38,7 @@ const schedule: DaySchedule[] = [
         b: "Дорноговь ВХ",
         aLogo: "/aranzalER.png",
         bLogo: "/dornogoviER.png",
-        finished: true,
+        finished: false,
         score: { a: 3, b: 2 },
         sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
       },
@@ -565,7 +565,7 @@ export default function MobileSchedule() {
               {m.time}
             </div>
 
-          <div className="grid grid-cols-[2fr_55px_2fr] items-center gap-2">
+          <div className="grid grid-cols-[2fr_auto_2fr] items-center gap-2">
 
               {/* TEAM A */}
               <div className="flex items-center gap-2 min-w-0">
