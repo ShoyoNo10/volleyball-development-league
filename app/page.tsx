@@ -21,13 +21,14 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-3xl font-extrabold tracking-wide">
-           Волейболын <br />Хөгжлийн Лиг
+          Волейболын <br />
+          Хөгжлийн Лиг
         </h1>
 
         {/* Subtitle */}
         <p className="text-sm opacity-90 leading-relaxed">
           Бэлтгэл. Өрсөлдөөн. Хөгжил. <br />
-           Волейболын ирээдүй эндээс эхэлнэ.
+          Волейболын ирээдүй эндээс эхэлнэ.
         </p>
 
         {/* Divider */}
@@ -40,11 +41,23 @@ export default function Home() {
         >
           Амжилтын хүснэгт
         </button>
-        <button onClick={() => router.push('/calendar')} className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
+        <button
+          onClick={() => router.push("/calendar")}
+          className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition"
+        >
           Тоглолтууд
         </button>
-        <button onClick={() => router.push('/teams')} className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition">
+        <button
+          onClick={() => router.push("/teams")}
+          className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition"
+        >
           Багууд
+        </button>
+        <button
+          onClick={() => router.push("/stats")}
+          className="w-full py-3 rounded-full bg-white text-red-600 font-semibold text-lg shadow-lg active:scale-95 transition"
+        >
+          Статистик
         </button>
 
         {/* Footer text */}

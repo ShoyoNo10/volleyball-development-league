@@ -3,3 +3,24 @@ L - Чөлөөт Хамгаалагч
 OP - Эсрэг довтлогч 
 MB - Голын хаагч 
 S - Холбогч
+
+
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+        { number: 1, name: ".", position: "" },
+        { number: 13, name: ".", position: "" },
+     
