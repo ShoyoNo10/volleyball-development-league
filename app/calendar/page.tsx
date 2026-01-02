@@ -45,7 +45,7 @@ const schedule: DaySchedule[] = [
       {
         time: "13:00",
         a: "Завхан Mig Wolves",
-        b: "Енержи",
+        b: "Энержи",
         aLogo: "/zavhanER.png",
         bLogo: "/energyER.png",
         finished: false,
@@ -158,7 +158,7 @@ const schedule: DaySchedule[] = [
       },
       {
         time: "17:00",
-        a: "Енержи",
+        a: "Энержи",
         b: "Дархан Могулс",
         aLogo: "/energyER.png",
         bLogo: "/mogulsER.png",

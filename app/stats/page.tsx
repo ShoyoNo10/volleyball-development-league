@@ -139,7 +139,7 @@ const data: StatisticData = {
       {
         id: "#23",
         name: "D.Stalone",
-        team: "Енержи",
+        team: "Энержи",
         value: 18,
         avatar: "/user.png",
       },
@@ -167,7 +167,7 @@ const data: StatisticData = {
       {
         id: "#16",
         name: "Н.Өлзийхишиг",
-        team: "Енержи",
+        team: "Энержи",
         value: 8,
         avatar: "/user.png",
       },
@@ -309,7 +309,7 @@ const data: StatisticData = {
       },
       {
         id: "#14",
-        name: "Г.Мягмархан",
+        name: "Г.Мягмарханд",
         team: "Хантайшир",
         value: 8,
         avatar: "/user.png",
@@ -348,11 +348,13 @@ export default function StatisticsSection() {
       <div className="flex gap-2 mb-4">
         <GenderButton
           text="Эрэгтэй"
+          gender="male"
           active={gender === "male"}
           onClick={() => setGender("male")}
         />
         <GenderButton
           text="Эмэгтэй"
+          gender="female"
           active={gender === "female"}
           onClick={() => setGender("female")}
         />
@@ -445,21 +447,26 @@ function StatButton({
 function GenderButton({
   text,
   active,
+  gender,
   onClick,
 }: {
   text: string;
   active: boolean;
+  gender: "male" | "female";
   onClick: () => void;
 }) {
+  const selectedClass =
+    gender === "male" ? "bg-blue-500 text-white" : "bg-pink-500 text-white";
+
+  const unselectedClass =
+    gender === "male" ? "bg-blue-400 text-black" : "bg-pink-400 text-black";
+
   return (
     <button
       onClick={onClick}
-      className={`px-4 py-2 rounded font-medium border border-black transition
-        ${
-          active
-            ? "bg-black text-white"
-            : "bg-white text-black hover:bg-gray-100"
-        }`}
+      className={`px-4 py-2 rounded font-medium transition
+        ${active ? selectedClass : unselectedClass}
+      `}
     >
       {text}
     </button>
