@@ -47,7 +47,7 @@ const data: StatisticData = {
         avatar: "/user.png",
       },
       {
-        id: "m-o-4",
+        id: "#88",
         name: "Aziret",
         team: "Өмнөговь Ёлууд",
         value: 77,
@@ -391,7 +391,7 @@ export default function StatisticsSection() {
           >
             <div className="flex items-center gap-3">
               <span className="w-5 font-bold text-gray-500">{i + 1}</span>
-              <div>{p.id}</div>
+              <div className="text-black">{p.id}</div>
 
               <div className="relative w-10 h-10 rounded-full overflow-hidden bg-gray-200">
                 <Image
