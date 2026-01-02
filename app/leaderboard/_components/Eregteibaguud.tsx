@@ -19,10 +19,10 @@ function Eregteibaguud() {
             />
             <span className="text-[10px] ">ЭНЕРЖИ МАЗААЛАЙ</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">12</div>
+          <div className="text-center border-r-gray-400 border-r">13</div>
           <div className="text-center border-r-gray-400 border-r">1</div>
-          <div className="text-center border-r-gray-400 border-r">38-9</div>
-          <div className="text-center font-bold ">35</div>
+          <div className="text-center border-r-gray-400 border-r">41-10</div>
+          <div className="text-center font-bold ">38</div>
         </div>
       </div>
 
@@ -40,10 +40,10 @@ function Eregteibaguud() {
             />
             <span className="text-[10px] ">НАТУР БАКС</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">9</div>
+          <div className="text-center border-r-gray-400 border-r">10</div>
           <div className="text-center border-r-gray-400 border-r">3</div>
-          <div className="text-center border-r-gray-400 border-r">19-18</div>
-          <div className="text-center font-bold ">24</div>
+          <div className="text-center border-r-gray-400 border-r">32-18</div>
+          <div className="text-center font-bold ">27</div>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ function Eregteibaguud() {
           </div>
           <div className="text-center border-r-gray-400 border-r">9</div>
           <div className="text-center border-r-gray-400 border-r">5</div>
-          <div className="text-center border-r-gray-400 border-r">32-22</div>
+          <div className="text-center border-r-gray-400 border-r">34-22</div>
           <div className="text-center font-bold ">28</div>
         </div>
       </div>
@@ -82,10 +82,10 @@ function Eregteibaguud() {
             />
             <span className="text-[10px] ">ӨМНӨГОВЬ ЁЛУУД</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">8</div>
+          <div className="text-center border-r-gray-400 border-r">9</div>
           <div className="text-center border-r-gray-400 border-r">5</div>
-          <div className="text-center border-r-gray-400 border-r">29-24</div>
-          <div className="text-center font-bold ">22</div>
+          <div className="text-center border-r-gray-400 border-r">32-24</div>
+          <div className="text-center font-bold ">25</div>
         </div>
       </div>
 
@@ -104,8 +104,8 @@ function Eregteibaguud() {
             <span className="text-[10px] ">БАЯНГОЛ АЛТАЙН БАРС ХИЛЧИН</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">8</div>
-          <div className="text-center border-r-gray-400 border-r">5</div>
-          <div className="text-center border-r-gray-400 border-r">29-27</div>
+          <div className="text-center border-r-gray-400 border-r">6</div>
+          <div className="text-center border-r-gray-400 border-r">29-30</div>
           <div className="text-center font-bold ">21</div>
         </div>
       </div>
@@ -124,10 +124,10 @@ function Eregteibaguud() {
             />
             <span className="text-[10px] ">АРАНЗАЛ СНТ</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">6</div>
           <div className="text-center border-r-gray-400 border-r">7</div>
-          <div className="text-center border-r-gray-400 border-r">24-26</div>
-          <div className="text-center font-bold ">20</div>
+          <div className="text-center border-r-gray-400 border-r">7</div>
+          <div className="text-center border-r-gray-400 border-r">27-28</div>
+          <div className="text-center font-bold ">22</div>
         </div>
       </div>
 
@@ -146,8 +146,8 @@ function Eregteibaguud() {
             <span className="text-[10px] ">ЗАВХАН МИГ WOLVES</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">6</div>
-          <div className="text-center border-r-gray-400 border-r">7</div>
-          <div className="text-center border-r-gray-400 border-r">26-26</div>
+          <div className="text-center border-r-gray-400 border-r">8</div>
+          <div className="text-center border-r-gray-400 border-r">27-29</div>
           <div className="text-center font-bold ">19</div>
         </div>
       </div>
@@ -167,9 +167,9 @@ function Eregteibaguud() {
             <span className="text-[10px] ">ДОРНОГОВЬ ВХ</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">3</div>
-          <div className="text-center border-r-gray-400 border-r">9</div>
-          <div className="text-center border-r-gray-400 border-r">20-33</div>
-          <div className="text-center font-bold ">9</div>
+          <div className="text-center border-r-gray-400 border-r">10</div>
+          <div className="text-center border-r-gray-400 border-r">22-36</div>
+          <div className="text-center font-bold ">10</div>
         </div>
       </div>
 
@@ -209,8 +209,8 @@ function Eregteibaguud() {
             <span className="text-[10px] ">ДАРХАН МОГУЛС</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">1</div>
-          <div className="text-center border-r-gray-400 border-r">12</div>
-          <div className="text-center border-r-gray-400 border-r">12-38</div>
+          <div className="text-center border-r-gray-400 border-r">13</div>
+          <div className="text-center border-r-gray-400 border-r">12-41</div>
           <div className="text-center font-bold ">4</div>
         </div>
       </div>
