@@ -48,9 +48,9 @@ const schedule: DaySchedule[] = [
         b: "Энержи",
         aLogo: "/zavhanER.png",
         bLogo: "/energyER.png",
-        finished: false,
+        finished: true,
         score: { a: 1, b: 3 },
-        sets: ["18-25", "25-20", "14-25", "0-0", "0-0"],
+        sets: ["18-25", "25-20", "14-25", "20-25"],
       },
       {
         time: "15:00",
@@ -58,9 +58,9 @@ const schedule: DaySchedule[] = [
         b: "Дархан Могулс",
         aLogo: "/yluudER.png",
         bLogo: "/mogulsER.png",
-        finished: false,
-        score: { a: 1, b: 3 },
-        sets: ["23-25", "25-18", "23-25", "23-25"],
+        finished: true,
+        score: { a: 3, b: 0 },
+        sets: ["25-12", "25-20", "25-19"],
       },
       {
         time: "17:00",
@@ -68,9 +68,9 @@ const schedule: DaySchedule[] = [
         b: "Алтайн барс",
         aLogo: "/naturebucksER.png",
         bLogo: "/altainbarsER.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 3, b: 0 },
+        sets: ["25-19", "25-20", "25-19",],
       },
     ],
   },
@@ -565,8 +565,7 @@ export default function MobileSchedule() {
               {m.time}
             </div>
 
-          <div className="grid grid-cols-[2fr_auto_2fr] items-center gap-2">
-
+            <div className="grid grid-cols-[2fr_auto_2fr] items-center gap-2">
               {/* TEAM A */}
               <div className="flex items-center gap-2 min-w-0">
                 <Image

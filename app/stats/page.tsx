@@ -1,4 +1,5 @@
 "use client";
+import LogoBanner from "@/components/myComponents/LogoBanner";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -414,6 +415,7 @@ export default function StatisticsSection() {
           </div>
         ))}
       </div>
+      <div className="mt-5"><LogoBanner /></div>
     </div>
   );
 }
