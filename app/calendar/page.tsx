@@ -38,9 +38,9 @@ const schedule: DaySchedule[] = [
         b: "Дорноговь ВХ",
         aLogo: "/aranzalER.png",
         bLogo: "/dornogoviER.png",
-        finished: false,
+        finished: true,
         score: { a: 3, b: 2 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        sets: ["12-25", "25-21", "25-22", "23-25", "15-13"],
       },
       {
         time: "13:00",
@@ -49,8 +49,8 @@ const schedule: DaySchedule[] = [
         aLogo: "/zavhanER.png",
         bLogo: "/energyER.png",
         finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        score: { a: 1, b: 3 },
+        sets: ["18-25", "25-20", "14-25", "0-0", "0-0"],
       },
       {
         time: "15:00",
