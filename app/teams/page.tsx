@@ -112,6 +112,7 @@ export default function TeamsPage() {
         { number: 2, name: "А.Мөнгөнбат", position: "Хаалч" },
         { number: 99, name: "Б.Энхбат", position: "Довтлогч" },
         { number: 18, name: "L.Arrechea", position: "Довтлогч" },
+        { number: 88, name: "Aziret", position: "Довтлогч" },
       ],
     },
     {
@@ -151,9 +152,9 @@ export default function TeamsPage() {
         { number: 99, name: "Д.Одбаяр", position: "Довтлогч" },
         { number: 1, name: "Б.Өсөхбаяр", position: "Холбогч" },
         { number: 2, name: "Б.Төрболд", position: "Холбогч" },
-        { number: 3, name: "О.Энхбаатар", position: "Хаагч" },
+        { number: 3, name: "О.Эрхэтбаатар", position: "Хаагч" },
         { number: 5, name: "М.Мөнх-Эрдэнэ", position: "Довтлогч" },
-        { number: 6, name: "Б.Нямд-Очир", position: "Хаагч" },
+        { number: 6, name: "Б.Ням-Очир", position: "Хаагч" },
         { number: 7, name: "Б.Чинбат", position: "Холбогч" },
         { number: 8, name: "О.Мөнхбаатар", position: "Довтлогч" },
         { number: 9, name: "Б.Улсболд", position: "Довтлогч" },
@@ -173,7 +174,7 @@ export default function TeamsPage() {
       id: 7,
       name: "ЗАВХАН МИГ WOLVES",
       gender: "male",
-      logo: "/zavhanER.png",
+      logo: "/tuvzaamarER.png",
       players: [
         { number: 19, name: "Б.Ганбат", position: "Эсрэг довтлогч" },
         { number: 11, name: "О.Бат-Ирээдүй", position: "Чөлөөт Хамгаалагч" },
@@ -227,7 +228,7 @@ export default function TeamsPage() {
       id: 9,
       name: "ТӨВ ЗААМАР MIG WOLVES",
       gender: "male",
-      logo: "/tuvzaamarER.png",
+      logo: "/zavhanER.png",
       players: [
         { number: 1, name: "М.Чиндорж", position: "Эсрэг довтлогч" },
         { number: 13, name: "О.Саруул-Ирээдүй", position: "Хүчний довтлогч" },
