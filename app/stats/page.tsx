@@ -299,19 +299,20 @@ const data: StatisticData = {
         avatar: "/user.png",
       },
       {
-        id: "#22",
-        name: "К.Еркежан",
-        team: "Сэлэнгэ SBM",
-        value: 13,
-        avatar: "/user.png",
-      },
-      {
         id: "#16",
         name: "А.Баярсайхан",
         team: "Аранзал СНТ",
         value: 14,
         avatar: "/user.png",
       },
+      {
+        id: "#22",
+        name: "К.Еркежан",
+        team: "Сэлэнгэ SBM",
+        value: 13,
+        avatar: "/user.png",
+      },
+
       {
         id: "#14",
         name: "Г.Мягмарханд",
@@ -467,7 +468,7 @@ function GenderButton({
     gender === "male" ? "bg-black text-white" : "bg-black text-white";
 
   const unselectedClass =
-    gender === "male" ? "bg-white text-black" : "bg-white text-black";
+    gender === "male" ? "bg-white text-black" : "bg-white    text-black";
 
   return (
     <button
