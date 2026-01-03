@@ -105,7 +105,7 @@ const schedule: DaySchedule[] = [
         b: "Golden ball Lynx",
         aLogo: "/hilchinEM1.png",
         bLogo: "/lynxEM1.png",
-        finished: false,
+        finished: true,
         score: { a: 1, b: 3 },
         sets: ["22-25", "22-25", "25-23", "17-25"],
       },
