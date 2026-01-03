@@ -6,13 +6,13 @@ function Emegteibaguud() {
   return (
     <div className="space-y-2">
       {/* ROW 1 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">1</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">1</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/mmbEM.png"
+              src="/mmbEM1.png"
               alt=""
               width={44}
               height={44}
@@ -27,13 +27,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 2 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">2</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">2</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/doctorsEM.png"
+              src="/doctorsEM1.png"
               alt=""
               width={44}
               height={44}
@@ -48,13 +48,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 3 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">3</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">3</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/lynxEM.png"
+              src="/lynxEM1.png"
               alt=""
               width={44}
               height={44}
@@ -69,13 +69,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 4 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">4</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">4</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/sbmEM.png"
+              src="/sbmEM1.png"
               alt=""
               width={44}
               height={44}
@@ -90,13 +90,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 5 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">5</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">5</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/dynastyEM.png"
+              src="/dynastyEM1.png"
               alt=""
               width={44}
               height={44}
@@ -111,13 +111,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 6 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">6</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">6</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/mubsiEM.png"
+              src="/mubsiEM1.png"
               alt=""
               width={44}
               height={44}
@@ -132,13 +132,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 7 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">7</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">7</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/hantaishirEM.png"
+              src="/hantaishirEM1.png"
               alt=""
               width={44}
               height={44}
@@ -153,13 +153,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 8 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">8</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">8</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/hilchinEM.png"
+              src="/hilchinEM1.png"
               alt=""
               width={44}
               height={44}
@@ -174,13 +174,13 @@ function Emegteibaguud() {
       </div>
 
       {/* ROW 9 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">9</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">9</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/aranzalEM.png"
+              src="/aranzalER.png"
               alt=""
               width={44}
               height={44}

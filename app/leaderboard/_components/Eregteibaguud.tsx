@@ -6,12 +6,12 @@ function Eregteibaguud() {
   return (
     <div className="space-y-2">
       {/* ROW 1 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-      <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">1</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+      <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">1</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/energyER.png"
               alt=""
               width={44}
@@ -27,12 +27,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 2 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">2</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">2</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/naturebucksER.png"
               alt=""
               width={44}
@@ -48,12 +48,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 3 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">3</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">3</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/megastarsER.png"
               alt=""
               width={44}
@@ -69,12 +69,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 4 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">4</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">4</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/yluudER.png"
               alt=""
               width={44}
@@ -90,12 +90,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 5 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">5</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">5</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/altainbarsER.png"
               alt=""
               width={44}
@@ -111,12 +111,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 6 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">6</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">6</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/aranzalER.png"
               alt=""
               width={44}
@@ -132,12 +132,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 7 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">7</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">7</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/zavhanER.png"
               alt=""
               width={44}
@@ -153,12 +153,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 8 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">8</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">8</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/dornogoviER.png"
               alt=""
               width={44}
@@ -174,12 +174,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 9 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">9</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">9</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/tuvzaamarER.png"
               alt=""
               width={44}
@@ -195,12 +195,12 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 10 */}
-      <div className="bg-purple-600/90 rounded-xl px-4 py-3 relative">
-       <div className="absolute top-[20%] left-[-10px] bg-white text-black p-[3px]">10</div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-white">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+       <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">10</div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
             <Image
-              className="bg-white"
+              className=""
               src="/mogulsER.png"
               alt=""
               width={44}
