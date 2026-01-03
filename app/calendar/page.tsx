@@ -97,7 +97,7 @@ const schedule: DaySchedule[] = [
         bLogo: "/doctorsEM1.png",
         finished: true,
         score: { a: 3, b: 2 },
-        sets: ["25-21", "11-25", "25-23", "9-25", "15-12"],
+        sets: ["25-21", "11-25", "25-23", "9-25", "15-12 "],
       },
       {
         time: "15:00",
@@ -107,7 +107,7 @@ const schedule: DaySchedule[] = [
         bLogo: "/lynxEM1.png",
         finished: false,
         score: { a: 1, b: 3 },
-        sets: ["23-25", "25-18", "23-25", "23-25"],
+        sets: ["22-25", "22-25", "25-23", "17-25"],
       },
       {
         time: "17:00",
