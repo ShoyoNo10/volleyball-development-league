@@ -27,6 +27,20 @@ const data: StatisticData = {
   male: {
     overall: [
       {
+        id: "#88",
+        name: "Aziret",
+        team: "Өмнөговь Ёлууд",
+        value: 117,
+        avatar: "/user.png",
+      },
+      {
+        id: "#24",
+        name: "Н.Дөлбаяр",
+        team: "Дархан Могулс",
+        value: 113,
+        avatar: "/user.png",
+      },
+      {
         id: "#19",
         name: "Б.Ганбат",
         team: "Завхан Mig Wolves",
@@ -34,32 +48,17 @@ const data: StatisticData = {
         avatar: "/user.png",
       },
       {
-        id: "#88",
-        name: "Aziret",
+        id: "#18",
+        name: "L.Arrechea",
         team: "Өмнөговь Ёлууд",
-        value: 99,
-        avatar: "/user.png",
-      },
-      {
-        id: "#24",
-        name: "Н.Дөлбаяр",
-        team: "Дархан Могулс",
-        value: 94,
+        value: 98,
         avatar: "/user.png",
       },
       {
         id: "#23",
         name: "D.Stalone",
         team: "Энержи",
-        value: 93,
-        avatar: "/user.png",
-      },
-
-      {
-        id: "#18",
-        name: "L.Arrechea",
-        team: "Өмнөговь Ёлууд",
-        value: 85,
+        value: 98,
         avatar: "/user.png",
       },
     ],
@@ -72,36 +71,50 @@ const data: StatisticData = {
         avatar: "/user.png",
       },
       {
-        id: "#24",
+        id: "#24.",
         name: "Б.Тамир",
         team: "Баянгол Алтайн Барс Хилчин",
         value: 7,
         avatar: "/user.png",
       },
       {
-        id: "#11",
-        name: "Д.Билгүүн",
-        team: "Мегастарс",
-        value: 6,
+        id: "#20",
+        name: "Г.Өнөрбаяр",
+        team: "Аранзал СНТ",
+        value: 7,
         avatar: "/user.png",
       },
 
       {
-        id: "#3",
-        name: "С.Мөнхжин",
-        team: "Натуре Бакс",
-        value: 6,
+        id: "3",
+        name: "Б.Оргил",
+        team: "Баянгол Алтайн Барс Хилчин",
+        value: 7,
         avatar: "/user.png",
       },
       {
-        id: "#19",
-        name: "Б.Ганбат",
-        team: "Завхан Mig Wolves",
-        value: 5,
+        id: "#24",
+        name: "Н.Дөлбаяр",
+        team: "Дархан Могулс",
+        value: 6,
         avatar: "/user.png",
       },
     ],
     attack: [
+      {
+        id: "#88",
+        name: "Aziret",
+        team: "Өмнөговь Ёлууд",
+        value: 106,
+        avatar: "/user.png",
+      },
+      {
+        id: "#24.",
+        name: "Н.Дөлбаяр",
+        team: "Дархан Могулс",
+        value: 103,
+        avatar: "/user.png",
+      },
       {
         id: "#19",
         name: "Б.Ганбат",
@@ -109,33 +122,19 @@ const data: StatisticData = {
         value: 98,
         avatar: "/user.png",
       },
-      {
-        id: "#88",
-        name: "Aziret",
-        team: "Өмнөговь Ёлууд",
-        value: 90,
-        avatar: "/user.png",
-      },
-      {
-        id: "#24.",
-        name: "Н.Дөлбаяр",
-        team: "Дархан Могулс",
-        value: 86,
-        avatar: "/user.png",
-      },
 
       {
         id: "#18",
         name: "L.Arrechea",
         team: "Мегастарс",
-        value: 74,
+        value: 86,
         avatar: "/user.png",
       },
       {
         id: "#24",
         name: "Б.Тамир",
         team: "Мегастарс",
-        value: 68,
+        value: 83,
         avatar: "/user.png",
       },
     ],
@@ -144,14 +143,29 @@ const data: StatisticData = {
         id: "#23",
         name: "D.Stalone",
         team: "Энержи",
-        value: 23,
+        value: 24,
+        avatar: "/user.png",
+      },
+      {
+        id: "#3.",
+        name: "Б.Оргил",
+        team: "Баянгол Алтайн Барс Хилчин",
+        value: 17,
         avatar: "/user.png",
       },
       {
         id: "#20",
         name: "Г.Өнөрбаяр",
         team: "Аранзал СНТ",
-        value: 14,
+        value: 15,
+        avatar: "/user.png",
+      },
+
+      {
+        id: "#2",
+        name: "О.Төгөлдөр",
+        team: "Мегастарс",
+        value: 15,
         avatar: "/user.png",
       },
       {
@@ -159,21 +173,6 @@ const data: StatisticData = {
         name: "Н.Мөнхцогт",
         team: "Дорноговь ВХ",
         value: 13,
-        avatar: "/user.png",
-      },
-
-      {
-        id: "#3",
-        name: "М.Эрхэмбаяр",
-        team: "Завхан Mig Wolves",
-        value: 13,
-        avatar: "/user.png",
-      },
-      {
-        id: "#3.",
-        name: "Б.Оргил",
-        team: "Баянгол Алтайн Барс Хилчин",
-        value: 12,
         avatar: "/user.png",
       },
     ],
@@ -239,7 +238,7 @@ const data: StatisticData = {
         value: 7,
         avatar: "/user.png",
       },
-            {
+      {
         id: "#11",
         name: "Э.Хонгорзул",
         team: "Сэлэнгэ SBM",
@@ -300,7 +299,7 @@ const data: StatisticData = {
         value: 24,
         avatar: "/user.png",
       },
-            {
+      {
         id: "#22",
         name: "К.Еркежан",
         team: "Сэлэнгэ SBM",
@@ -314,7 +313,6 @@ const data: StatisticData = {
         value: 14,
         avatar: "/user.png",
       },
-
 
       {
         id: "#14",
