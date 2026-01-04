@@ -142,9 +142,9 @@ const schedule: DaySchedule[] = [
         b: "Натур Бакс",
         aLogo: "/megastarsER.png",
         bLogo: "/naturebucksER.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 2, b: 3 },
+        sets: ["25-14", "26-24", "23-25", "17-25", "11-15"],
       },
       {
         time: "15:00",
