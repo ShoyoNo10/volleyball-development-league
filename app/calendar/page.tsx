@@ -124,7 +124,7 @@ const schedule: DaySchedule[] = [
   {
     day: 4,
     label: "4",
-    week: "Sat",
+    week: "Sun",
     matches: [
       {
         time: "11:00",
@@ -171,7 +171,7 @@ const schedule: DaySchedule[] = [
   {
     day: 5,
     label: "5",
-    week: "Sun",
+    week: "Mon",
     matches: [
       {
         time: "11:00",
@@ -218,7 +218,7 @@ const schedule: DaySchedule[] = [
   {
     day: 6,
     label: "6",
-    week: "Mon",
+    week: "Tue",
     matches: [
       {
         time: "11:00",
@@ -265,7 +265,7 @@ const schedule: DaySchedule[] = [
   {
     day: 7,
     label: "7",
-    week: "Tue",
+    week: "Wed",
     matches: [
       {
         time: "11:00",
@@ -312,7 +312,7 @@ const schedule: DaySchedule[] = [
   {
     day: 8,
     label: "8",
-    week: "Wed",
+    week: "Thu",
     matches: [
       {
         time: "11:00",
@@ -349,7 +349,7 @@ const schedule: DaySchedule[] = [
   {
     day: 9,
     label: "9",
-    week: "Thu",
+    week: "Fri",
     matches: [
       {
         time: "11:00",
@@ -396,7 +396,7 @@ const schedule: DaySchedule[] = [
   {
     day: 10,
     label: "10",
-    week: "Fri",
+    week: "Sat",
     matches: [
       {
         time: "11:00",
@@ -443,7 +443,7 @@ const schedule: DaySchedule[] = [
   {
     day: 11,
     label: "11",
-    week: "Sat",
+    week: "Sun",
     matches: [
       {
         time: "11:00",
@@ -480,7 +480,7 @@ const schedule: DaySchedule[] = [
   {
     day: 12,
     label: "12",
-    week: "Sun",
+    week: "Mon",
     matches: [
       {
         time: "11:00",
@@ -517,7 +517,7 @@ const schedule: DaySchedule[] = [
 ];
 
 export default function MobileSchedule() {
-  const [selectedDay, setSelectedDay] = useState(3);
+  const [selectedDay, setSelectedDay] = useState(4);
   const currentDay = schedule.find((d) => d.day === selectedDay)!;
   const router = useRouter();
 
