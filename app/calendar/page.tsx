@@ -152,9 +152,9 @@ const schedule: DaySchedule[] = [
         b: "Төв Заамар Миг Wolves",
         aLogo: "/yluudER.png",
         bLogo: "/tuvzaamarER.png",
-        finished: false,
-        score: { a: 1, b: 3 },
-        sets: ["23-25", "25-18", "23-25", "23-25"],
+        finished: true,
+        score: { a: 3, b: 0 },
+        sets: ["25-16", "25-19", "25-21"],
       },
       {
         time: "17:00",
