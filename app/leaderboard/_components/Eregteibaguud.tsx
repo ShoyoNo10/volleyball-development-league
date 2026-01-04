@@ -153,7 +153,7 @@ function Eregteibaguud() {
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/zavhanER.png"
+              src="/tuvzaamarER.png"
               alt=""
               width={44}
               height={44}
@@ -199,7 +199,7 @@ function Eregteibaguud() {
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/tuvzaamarER.png"
+              src="/zavhanER.png"
               alt=""
               width={44}
               height={44}
@@ -232,7 +232,7 @@ function Eregteibaguud() {
           <div className="text-center border-r-gray-400 border-r">1</div>
           <div className="text-center border-r-gray-400 border-r">14</div>
           <div className="text-center border-r-gray-400 border-r">12-44</div>
-          <div className="text-center font-bold ">5</div>
+          <div className="text-center font-bold ">4</div>
         </div>
       </div>
     </div>
