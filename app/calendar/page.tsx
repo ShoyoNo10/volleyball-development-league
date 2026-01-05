@@ -179,7 +179,7 @@ const schedule: DaySchedule[] = [
         b: "MUBSI 3x3 academy",
         aLogo: "/lynxEM1.png",
         bLogo: "/mubsiEM1.png",
-        finished: false,
+        finished: true,
         score: { a: 3, b: 0 },
         sets: ["25-20", "25-22", "25-12"],
       },
