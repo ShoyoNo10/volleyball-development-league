@@ -189,9 +189,9 @@ const schedule: DaySchedule[] = [
         b: "Хилчин TG",
         aLogo: "/doctorsEM1.png",
         bLogo: "/hilchinEM1.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 3, b: 1 },
+        sets: ["19-25", "25-23", "25-21", "25-11"],
       },
       {
         time: "15:00",
@@ -517,7 +517,7 @@ const schedule: DaySchedule[] = [
 ];
 
 export default function MobileSchedule() {
-  const [selectedDay, setSelectedDay] = useState(4);
+  const [selectedDay, setSelectedDay] = useState(5);
   const currentDay = schedule.find((d) => d.day === selectedDay)!;
   const router = useRouter();
 
