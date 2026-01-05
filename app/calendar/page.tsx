@@ -180,8 +180,8 @@ const schedule: DaySchedule[] = [
         aLogo: "/lynxEM1.png",
         bLogo: "/mubsiEM1.png",
         finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        score: { a: 3, b: 0 },
+        sets: ["25-20", "25-22", "25-12"],
       },
       {
         time: "13:00",
