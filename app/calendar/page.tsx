@@ -226,19 +226,19 @@ const schedule: DaySchedule[] = [
         b: "Zavkhan Mig Wolves",
         aLogo: "/dornogoviER.png",
         bLogo: "/zavhanER.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 2, b: 3 },
+        sets: ["25-23", "22-25", "25-17", "19-25", "11-15"],
       },
       {
         time: "13:00",
         a: "Алтайн барс",
         b: "Мегастарс",
-        aLogo: "/altainbarsER.png",
+        aLogo: "/altainbarsER.png", 
         bLogo: "/megastarsER.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 2, b: 3 },
+        sets: ["25-18", "25-21", "15-25", "19-25", "13-15"],
       },
       {
         time: "15:00",
@@ -246,9 +246,9 @@ const schedule: DaySchedule[] = [
         b: "Өмнөговь Ёлууд",
         aLogo: "/naturebucksER.png",
         bLogo: "/yluudER.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 1, b: 3 },
+        sets: ["17-25", "27-25", "15-25", "20-25"],
       },
       {
         time: "17:00",
@@ -256,9 +256,9 @@ const schedule: DaySchedule[] = [
         b: "Энержи",
         aLogo: "/tuvzaamarER.png",
         bLogo: "/energyER.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 0, b: 3 },
+        sets: ["12-25", "13-25", "10-25"],
       },
     ],
   },
@@ -517,7 +517,7 @@ const schedule: DaySchedule[] = [
 ];
 
 export default function MobileSchedule() {
-  const [selectedDay, setSelectedDay] = useState(5);
+  const [selectedDay, setSelectedDay] = useState(7);
   const currentDay = schedule.find((d) => d.day === selectedDay)!;
   const router = useRouter();
 
