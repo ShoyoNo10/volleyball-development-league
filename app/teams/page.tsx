@@ -68,7 +68,7 @@ export default function TeamsPage() {
       gender: "male",
       logo: "/megastarsER.png",
       players: [
-        { number: 7, name: "Мөнх-Эрдэнэ", position: "S" },
+        { number: 7, name: "А.Мөнх-Эрдэнэ", position: "S" },
         { number: 17, name: "Б.Баяр-Эрдэнэ", position: "OH" },
         { number: 11, name: "Д.Билгүүн", position: "OH" },
         { number: 22, name: "Э.Анхтөр", position: "S" },
