@@ -350,6 +350,7 @@ export default function TeamsPage() {
         { number: 19, name: "Г.Элбэрэл", position: "OH" },
         { number: 8, name: "Г.Цэрэнням", position: "OH" },
         { number: 12, name: "Б.Алтанцэцэг", position: "OH" },
+        { number: 24, name: "K.Yukina", position: "OH" },
       ],
     },
     {
