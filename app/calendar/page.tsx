@@ -273,9 +273,9 @@ const schedule: DaySchedule[] = [
         b: "MMB sport academy",
         aLogo: "/aranzalER.png",
         bLogo: "/mmbEM1.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 2, b: 3 },
+        sets: ["13-25", "25-21", "29-27", "19-25", "10-15"],
       },
       {
         time: "13:00",
