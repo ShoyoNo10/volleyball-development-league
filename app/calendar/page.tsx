@@ -283,9 +283,9 @@ const schedule: DaySchedule[] = [
         b: "Хантайшир",
         aLogo: "/hilchinEM1.png",
         bLogo: "/hantaishirEM1.png",
-        finished: false,
-        score: { a: 0, b: 0 },
-        sets: ["23-25", "25-18", "23-25", "23-25", "15-13"],
+        finished: true,
+        score: { a: 3, b: 1 },
+        sets: ["23-25", "25-15", "25-17", "25-19"],
       },
       {
         time: "15:00",
