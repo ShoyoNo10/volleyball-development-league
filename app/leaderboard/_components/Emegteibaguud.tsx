@@ -21,15 +21,15 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">GOLDEN BALL LYNX</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">11</div>
+          <div className="text-center border-r-gray-400 border-r">12</div>
           <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">33-20</div>
-          <div className="text-center font-bold ">30</div>
+          <div className="text-center border-r-gray-400 border-r">36-21</div>
+          <div className="text-center font-bold ">33</div>
         </div>
       </div>
       {/* ROW 2 */}
 
-            <div className="bg-white rounded-xl px-4 py-3 relative">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
         <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
           2
         </div>
@@ -44,14 +44,14 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">DOCTORS</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">10</div>
+          <div className="text-center border-r-gray-400 border-r">11</div>
           <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">34-18</div>
-          <div className="text-center font-bold ">32</div>
+          <div className="text-center border-r-gray-400 border-r">37-18</div>
+          <div className="text-center font-bold ">35</div>
         </div>
       </div>
       {/* ROW 3 */}
-     <div className="bg-white rounded-xl px-4 py-3 relative">
+      <div className="bg-white rounded-xl px-4 py-3 relative">
         <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
           3
         </div>
@@ -66,12 +66,12 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">MMB SPORT ACADEMY</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">10</div>
+          <div className="text-center border-r-gray-400 border-r">11</div>
           <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">32-24</div>
-          <div className="text-center font-bold ">27</div>
+          <div className="text-center border-r-gray-400 border-r">35-24</div>
+          <div className="text-center font-bold ">29</div>
         </div>
-      </div> 
+      </div>
 
       {/* ROW 4 */}
       <div className="bg-white rounded-xl px-4 py-3 relative">
@@ -112,8 +112,8 @@ function Emegteibaguud() {
             <span className="text-[10px] ">СЭЛЭНГЭ SBM</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">8</div>
-          <div className="text-center border-r-gray-400 border-r">6</div>
-          <div className="text-center border-r-gray-400 border-r">31-25</div>
+          <div className="text-center border-r-gray-400 border-r">7</div>
+          <div className="text-center border-r-gray-400 border-r">32-28</div>
           <div className="text-center font-bold ">24</div>
         </div>
       </div>
@@ -135,8 +135,8 @@ function Emegteibaguud() {
             <span className="text-[10px] ">MUBSI 3X3 ACADEMY</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">6</div>
-          <div className="text-center border-r-gray-400 border-r">8</div>
-          <div className="text-center border-r-gray-400 border-r">23-23</div>
+          <div className="text-center border-r-gray-400 border-r">9</div>
+          <div className="text-center border-r-gray-400 border-r">23-26</div>
           <div className="text-center font-bold ">20</div>
         </div>
       </div>
@@ -158,8 +158,8 @@ function Emegteibaguud() {
             <span className="text-[10px] ">ХАНТАЙШИР</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">5</div>
-          <div className="text-center border-r-gray-400 border-r">9</div>
-          <div className="text-center border-r-gray-400 border-r">21-30</div>
+          <div className="text-center border-r-gray-400 border-r">10</div>
+          <div className="text-center border-r-gray-400 border-r">22-33</div>
           <div className="text-center font-bold ">16</div>
         </div>
       </div>
@@ -173,20 +173,21 @@ function Emegteibaguud() {
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/aranzalER.png"
+              src="/hilchinEM1.png"
               alt=""
               width={44}
               height={44}
             />
-            <span className="text-[10px] ">АРАНЗАЛ СНТ</span>
+            <span className="text-[10px] ">ХИЛЧИН TG</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">3</div>
-          <div className="text-center border-r-gray-400 border-r">11</div>
-          <div className="text-center border-r-gray-400 border-r">19-38</div>
-          <div className="text-center font-bold ">10</div>
+          <div className="text-center border-r-gray-400 border-r">12</div>
+          <div className="text-center border-r-gray-400 border-r">21-40</div>
+          <div className="text-center font-bold ">11</div>
         </div>
       </div>
       {/* ROW 9 */}
+
       <div className="bg-white rounded-xl px-4 py-3 relative">
         <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
           9
@@ -195,17 +196,17 @@ function Emegteibaguud() {
           <div className="flex items-center gap-2">
             <Image
               className=""
-              src="/hilchinEM1.png"
+              src="/aranzalER.png"
               alt=""
               width={44}
               height={44}
             />
-            <span className="text-[10px] ">ХИЛЧИН TG</span>
+            <span className="text-[10px] ">АРАНЗАЛ СНТ</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">2</div>
+          <div className="text-center border-r-gray-400 border-r">3</div>
           <div className="text-center border-r-gray-400 border-r">12</div>
-          <div className="text-center border-r-gray-400 border-r">18-39</div>
-          <div className="text-center font-bold ">8</div>
+          <div className="text-center border-r-gray-400 border-r">21-41</div>
+          <div className="text-center font-bold ">11</div>
         </div>
       </div>
     </div>
