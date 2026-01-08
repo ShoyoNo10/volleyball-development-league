@@ -1,10 +1,11 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import LogoBanner from "@/components/myComponents/LogoBanner";
 import { ArrowBigLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 
+/* ===== TYPES ===== */
 type Match = {
   time: string;
   a: string;
@@ -26,6 +27,7 @@ type DaySchedule = {
   matches: Match[];
 };
 
+/* ===== SCHEDULE DATA ===== */
 const schedule: DaySchedule[] = [
   {
     day: 2,
@@ -234,7 +236,7 @@ const schedule: DaySchedule[] = [
         time: "13:00",
         a: "Алтайн барс",
         b: "Мегастарс",
-        aLogo: "/altainbarsER.png", 
+        aLogo: "/altainbarsER.png",
         bLogo: "/megastarsER.png",
         finished: true,
         score: { a: 2, b: 3 },
@@ -516,10 +518,26 @@ const schedule: DaySchedule[] = [
   },
 ];
 
+/* ===== COMPONENT ===== */
 export default function MobileSchedule() {
   const [selectedDay, setSelectedDay] = useState(9);
   const currentDay = schedule.find((d) => d.day === selectedDay)!;
   const router = useRouter();
+
+  /* 🔥 DAY BUTTON REF */
+  const dayRefs = useRef<Record<number, HTMLButtonElement | null>>({});
+
+  /* 🔥 AUTO SCROLL TO SELECTED DAY */
+  useEffect(() => {
+    const el = dayRefs.current[selectedDay];
+    if (el) {
+      el.scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest",
+      });
+    }
+  }, [selectedDay]);
 
   return (
     <div className="max-w-md mx-auto min-h-screen bg-gray-50">
@@ -531,7 +549,7 @@ export default function MobileSchedule() {
             onClick={() => router.back()}
             className="flex items-center text-[15px] font-medium text-black border rounded-md p-1"
           >
-            <ArrowBigLeft className="" /> Буцах
+            <ArrowBigLeft /> Буцах
           </button>
         </div>
 
@@ -539,15 +557,16 @@ export default function MobileSchedule() {
         <div className="flex gap-3 overflow-x-auto no-scrollbar mt-3 pb-2">
           {schedule.map((d) => (
             <button
-              key={d.day}
-              onClick={() => setSelectedDay(d.day)}
-              className={`min-w-14 rounded-xl px-3 py-2 text-center transition
-                ${
-                  d.day === selectedDay
-                    ? "bg-black text-white"
-                    : "bg-white text-gray-600 border"
-                }`}
-            >
+                key={d.day}
+                ref={(el) => { dayRefs.current[d.day] = el; }}
+                onClick={() => setSelectedDay(d.day)}
+                className={`min-w-14 rounded-xl px-3 py-2 text-center transition
+                  ${
+                    d.day === selectedDay
+                      ? "bg-black text-white scale-105"
+                      : "bg-white text-gray-600 border"
+                  }`}
+              >
               <div className="text-sm font-bold">{d.label}</div>
               <div className="text-xs">{d.week}</div>
             </button>
@@ -559,8 +578,6 @@ export default function MobileSchedule() {
       <div className="px-4 mt-4 space-y-3 pb-20">
         {currentDay.matches.map((m, i) => (
           <div key={i} className="bg-white rounded-xl shadow-sm p-3">
-            {/* TIME */}
-
             <div className="text-xs font-semibold text-gray-500 mb-2">
               {m.time}
             </div>
@@ -623,6 +640,7 @@ export default function MobileSchedule() {
           </div>
         ))}
       </div>
+
       <LogoBanner />
     </div>
   );
