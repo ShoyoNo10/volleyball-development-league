@@ -1,8 +1,21 @@
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI;
-if (!uri) throw new Error("MONGODB_URI is not defined");
+const uri = process.env.MONGODB_URI as string;
 
-const client = new MongoClient(uri);
+if (!uri) {
+  throw new Error("MONGODB_URI is not defined");
+}
 
-export const clientPromise = client.connect();
+declare global {
+  var _mongoClientPromise: Promise<MongoClient> | undefined;
+}
+
+const clientPromise: Promise<MongoClient> =
+  global._mongoClientPromise ??
+  (() => {
+    const client = new MongoClient(uri);
+    global._mongoClientPromise = client.connect();
+    return global._mongoClientPromise;
+  })();
+
+export default clientPromise;
