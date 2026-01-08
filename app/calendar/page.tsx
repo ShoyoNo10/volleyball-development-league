@@ -517,7 +517,7 @@ const schedule: DaySchedule[] = [
 ];
 
 export default function MobileSchedule() {
-  const [selectedDay, setSelectedDay] = useState(7);
+  const [selectedDay, setSelectedDay] = useState(9);
   const currentDay = schedule.find((d) => d.day === selectedDay)!;
   const router = useRouter();
 
