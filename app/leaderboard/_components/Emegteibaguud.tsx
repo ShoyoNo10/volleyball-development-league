@@ -90,10 +90,10 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">PRIME ILCH DYNASTY</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">9</div>
+          <div className="text-center border-r-gray-400 border-r">10</div>
           <div className="text-center border-r-gray-400 border-r">6</div>
-          <div className="text-center border-r-gray-400 border-r">29-24</div>
-          <div className="text-center font-bold ">25</div>
+          <div className="text-center border-r-gray-400 border-r">32-24</div>
+          <div className="text-center font-bold ">28</div>
         </div>
       </div>
       {/* ROW 5 */}
@@ -205,8 +205,8 @@ function Emegteibaguud() {
             <span className="text-[10px] ">АРАНЗАЛ СНТ</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">3</div>
-          <div className="text-center border-r-gray-400 border-r">12</div>
-          <div className="text-center border-r-gray-400 border-r">21-41</div>
+          <div className="text-center border-r-gray-400 border-r">13</div>
+          <div className="text-center border-r-gray-400 border-r">21-44</div>
           <div className="text-center font-bold ">11</div>
         </div>
       </div>
