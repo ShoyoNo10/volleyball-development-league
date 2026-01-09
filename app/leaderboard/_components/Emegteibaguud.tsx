@@ -135,10 +135,10 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">MUBSI 3X3 ACADEMY</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">6</div>
+          <div className="text-center border-r-gray-400 border-r">7</div>
           <div className="text-center border-r-gray-400 border-r">9</div>
-          <div className="text-center border-r-gray-400 border-r">23-26</div>
-          <div className="text-center font-bold ">20</div>
+          <div className="text-center border-r-gray-400 border-r">26-26</div>
+          <div className="text-center font-bold ">23</div>
         </div>
       </div>
 
@@ -159,8 +159,8 @@ function Emegteibaguud() {
             <span className="text-[10px] ">ХАНТАЙШИР</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">5</div>
-          <div className="text-center border-r-gray-400 border-r">10</div>
-          <div className="text-center border-r-gray-400 border-r">22-33</div>
+          <div className="text-center border-r-gray-400 border-r">11</div>
+          <div className="text-center border-r-gray-400 border-r">22-36</div>
           <div className="text-center font-bold ">16</div>
         </div>
       </div>
