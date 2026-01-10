@@ -115,7 +115,7 @@ function Eregteibaguud() {
             />
             <span className="text-[10px] ">АРАНЗАЛ СНТ</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">90</div>
+          <div className="text-center border-r-gray-400 border-r">10</div>
           <div className="text-center border-r-gray-400 border-r">7</div>
           <div className="text-center border-r-gray-400 border-r">36-35</div>
           <div className="text-center font-bold ">28</div>
