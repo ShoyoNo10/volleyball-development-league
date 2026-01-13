@@ -13,6 +13,8 @@ type Match = {
   aLogo: string;
   bLogo: string;
   finished?: boolean;
+  isFinal?: boolean;
+  medal?: "gold" | "bronze";
   score?: { a: number; b: number };
   sets?: string[];
 };
@@ -21,6 +23,7 @@ type DaySchedule = {
   day: number;
   label: string;
   week: string;
+  hasFinal?: boolean;
   matches: Match[];
 };
 
@@ -69,40 +72,90 @@ export default function MobileSchedule() {
         </div>
 
         {/* DATE SELECTOR */}
+        {/* DATE SELECTOR */}
         <div className="flex gap-3 overflow-x-auto no-scrollbar mt-3 pb-2">
-          {schedule.map((d) => (
-            <button
-              key={d.day}
-              ref={(el) => {
-                dayRefs.current[d.day] = el;
-              }}
-              onClick={() => setSelectedDay(d.day)}
-              className={`min-w-14 rounded-xl px-3 py-2 text-center transition
-                ${
-                  d.day === selectedDay
-                    ? "bg-black text-white scale-105"
-                    : "bg-white text-gray-600 border"
-                }`}
-            >
-              <div className="text-sm font-bold">{d.label}</div>
-              <div className="text-xs">{d.week}</div>
-            </button>
-          ))}
+          {schedule.map((d) => {
+            const isSelected = d.day === selectedDay;
+            const isFinalDay = d.hasFinal;
+
+            return (
+              <button
+                key={d.day}
+                ref={(el) => {
+                  dayRefs.current[d.day] = el;
+                }}
+                onClick={() => setSelectedDay(d.day)}
+                className={`
+          relative min-w-16 rounded-xl px-3 py-2 text-center transition
+          ${
+            isSelected && isFinalDay
+              ? "bg-red-500 text-white scale-105"
+              : isSelected
+              ? "bg-black text-white scale-105"
+              : isFinalDay
+              ? "bg-white text-red-500 border border-red-400"
+              : "bg-white text-gray-600 border"
+          }
+        `}
+              >
+                {/* FINAL TEXT — ДОТОР НЬ */}
+                {isFinalDay && (
+                  <div className="text-[9px] font-bold text-red-500 mb-0.5">
+                    FINAL
+                  </div>
+                )}
+
+                <div className="text-sm font-bold">{d.label}</div>
+                <div className="text-xs">{d.week}</div>
+              </button>
+            );
+          })}
         </div>
       </div>
 
       {/* MATCH LIST */}
       <div className="px-4 mt-4 space-y-3 pb-20">
         {currentDay.matches.map((m, i) => (
-          <div key={i} className="bg-white rounded-xl shadow-sm p-3">
-            <div className="text-xs font-semibold text-gray-500 mb-2">
-              {m.time}
+          <div
+            key={i}
+            className={`
+      relative bg-white rounded-xl p-3 transition
+      ${
+        m.isFinal
+          ? "border-2 border-red-500 shadow-md shadow-red-200"
+          : "shadow-sm"
+      }
+    `}
+          >
+            {m.isFinal && (
+              <div className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
+                FINAL
+              </div>
+            )}
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-xs font-semibold text-gray-500">
+                {m.time}
+              </div>
+
+              {/* 🏅 MEDAL TEXT */}
+              {m.medal && (
+                <div className="text-[10px] font-semibold text-gray-600">
+                  {m.medal === "gold" && "🥇 Алтан медалийн төлөөх тоглолт"}
+                  {m.medal === "bronze" && "🥉 Хүрэл медалийн төлөөх тоглолт"}
+                </div>
+              )}
             </div>
 
             <div className="grid grid-cols-[2fr_auto_2fr] items-center gap-2">
               {/* TEAM A */}
               <div className="flex items-center gap-2 min-w-0">
-                <Image src={m.aLogo} alt={m.a} width={55} height={55} className="rounded-full" />
+                <Image
+                  src={m.aLogo}
+                  alt={m.a}
+                  width={55}
+                  height={55}
+                  className="rounded-full"
+                />
                 <span className="text-sm font-medium line-clamp-2 text-black">
                   {m.a}
                 </span>
@@ -130,7 +183,13 @@ export default function MobileSchedule() {
                 <span className="text-sm font-medium line-clamp-2 text-black">
                   {m.b}
                 </span>
-                <Image src={m.bLogo} alt={m.b} width={55} height={55} className="rounded-full" />
+                <Image
+                  src={m.bLogo}
+                  alt={m.b}
+                  width={55}
+                  height={55}
+                  className="rounded-full"
+                />
               </div>
             </div>
 
