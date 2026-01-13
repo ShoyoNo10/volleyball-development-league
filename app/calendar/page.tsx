@@ -114,7 +114,7 @@ export default function MobileSchedule() {
       </div>
 
       {/* MATCH LIST */}
-      <div className="px-4 mt-4 space-y-3 pb-20">
+      <div className="px-4 mt-4 space-y-3">
         {currentDay.matches.map((m, i) => (
           <div
             key={i}
