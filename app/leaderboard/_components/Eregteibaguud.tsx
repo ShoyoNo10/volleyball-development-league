@@ -29,10 +29,33 @@ function Eregteibaguud() {
       </div>
 
       {/* ROW 2 */}
+ <div className="bg-white rounded-xl px-4 py-3 relative">
+        <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
+          2
+        </div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
+          <div className="flex items-center gap-2">
+            <Image
+              className=""
+              src="/naturebucksER.png"
+              alt=""
+              width={44}
+              height={44}
+            />
+            <span className="text-[10px] ">НАТУР БАКС</span>
+          </div>
+          <div className="text-center border-r-gray-400 border-r">14</div>
+          <div className="text-center border-r-gray-400 border-r">4</div>
+          <div className="text-center border-r-gray-400 border-r">42-25</div>
+          <div className="text-center font-bold ">36</div>
+        </div>
+      </div>
+
+      {/* ROW 3 */}
 
       <div className="bg-white rounded-xl px-4 py-3 relative">
         <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
-          2
+          3
         </div>
         <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
@@ -52,29 +75,9 @@ function Eregteibaguud() {
         </div>
       </div>
 
-      {/* ROW 3 */}
 
-      <div className="bg-white rounded-xl px-4 py-3 relative">
-        <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
-          3
-        </div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
-          <div className="flex items-center gap-2">
-            <Image
-              className=""
-              src="/naturebucksER.png"
-              alt=""
-              width={44}
-              height={44}
-            />
-            <span className="text-[10px] ">НАТУР БАКС</span>
-          </div>
-          <div className="text-center border-r-gray-400 border-r">13</div>
-          <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">42-25</div>
-          <div className="text-center font-bold ">36</div>
-        </div>
-      </div>
+
+     
 
       {/* ROW 4 */}
 
