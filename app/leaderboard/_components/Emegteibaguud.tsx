@@ -69,9 +69,9 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">GOLDEN BALL LYNX</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">12</div>
-          <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">36-21</div>
+          <div className="text-center border-r-gray-400 border-r">11</div>
+          <div className="text-center border-r-gray-400 border-r">5</div>
+          <div className="text-center border-r-gray-400 border-r">32-24</div>
           <div className="text-center font-bold ">33</div>
         </div>
       </div>
