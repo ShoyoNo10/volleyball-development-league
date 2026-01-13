@@ -30,31 +30,9 @@ function Emegteibaguud() {
       </div>
       {/* ROW 2 */}
 
-      <div className="bg-white rounded-xl px-4 py-3 relative">
+ <div className="bg-white rounded-xl px-4 py-3 relative">
         <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
           2
-        </div>
-        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
-          <div className="flex items-center gap-2">
-            <Image
-              className=""
-              src="/lynxEM1.png"
-              alt=""
-              width={44}
-              height={44}
-            />
-            <span className="text-[10px] ">GOLDEN BALL LYNX</span>
-          </div>
-          <div className="text-center border-r-gray-400 border-r">12</div>
-          <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">36-21</div>
-          <div className="text-center font-bold ">33</div>
-        </div>
-      </div>
-      {/* ROW 3 */}
-      <div className="bg-white rounded-xl px-4 py-3 relative">
-        <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
-          3
         </div>
         <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
           <div className="flex items-center gap-2">
@@ -74,6 +52,32 @@ function Emegteibaguud() {
         </div>
       </div>
 
+      {/* ROW 3 */}
+
+      <div className="bg-white rounded-xl px-4 py-3 relative">
+        <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
+          3
+        </div>
+        <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
+          <div className="flex items-center gap-2">
+            <Image
+              className=""
+              src="/lynxEM1.png"
+              alt=""
+              width={44}
+              height={44}
+            />
+            <span className="text-[10px] ">GOLDEN BALL LYNX</span>
+          </div>
+          <div className="text-center border-r-gray-400 border-r">12</div>
+          <div className="text-center border-r-gray-400 border-r">4</div>
+          <div className="text-center border-r-gray-400 border-r">36-21</div>
+          <div className="text-center font-bold ">33</div>
+        </div>
+      </div>
+
+
+     
       {/* ROW 4 */}
       <div className="bg-white rounded-xl px-4 py-3 relative">
         <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
