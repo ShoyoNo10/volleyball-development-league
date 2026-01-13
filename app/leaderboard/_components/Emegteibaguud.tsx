@@ -8,7 +8,7 @@ function Emegteibaguud() {
       {/* ROW 1 */}
 
       <div className="bg-white rounded-xl px-4 py-3 relative">
-        <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
+        <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
           1
         </div>
         <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
@@ -31,7 +31,7 @@ function Emegteibaguud() {
       {/* ROW 2 */}
 
       <div className="bg-white rounded-xl px-4 py-3 relative">
-        <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
+        <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
           2
         </div>
         <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
@@ -53,7 +53,7 @@ function Emegteibaguud() {
       </div>
       {/* ROW 3 */}
       <div className="bg-white rounded-xl px-4 py-3 relative">
-        <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
+        <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
           3
         </div>
         <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
@@ -67,7 +67,7 @@ function Emegteibaguud() {
             />
             <span className="text-[10px] ">MMB SPORT ACADEMY</span>
           </div>
-          <div className="text-center border-r-gray-400 border-r">11</div>
+          <div className="text-center border-r-gray-400 border-r">12</div>
           <div className="text-center border-r-gray-400 border-r">4</div>
           <div className="text-center border-r-gray-400 border-r">35-24</div>
           <div className="text-center font-bold ">29</div>
@@ -76,7 +76,7 @@ function Emegteibaguud() {
 
       {/* ROW 4 */}
       <div className="bg-white rounded-xl px-4 py-3 relative">
-        <div className="absolute top-[20%] left-[-10px] bg-purple-600 text-white p-[3px] rounded-md">
+        <div className="absolute top-[20%] left-[-10px] bg-red-500 text-white p-[3px] rounded-md">
           4
         </div>
         <div className="grid grid-cols-[2fr_1fr_1fr_1.5fr_1fr] items-center text-black">
