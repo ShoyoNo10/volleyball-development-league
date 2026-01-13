@@ -186,8 +186,8 @@ function Emegteibaguud() {
             <span className="text-[10px] ">ХИЛЧИН TG</span>
           </div>
           <div className="text-center border-r-gray-400 border-r">3</div>
-          <div className="text-center border-r-gray-400 border-r">12</div>
-          <div className="text-center border-r-gray-400 border-r">21-40</div>
+          <div className="text-center border-r-gray-400 border-r">13</div>
+          <div className="text-center border-r-gray-400 border-r">21-43</div>
           <div className="text-center font-bold ">11</div>
         </div>
       </div>
