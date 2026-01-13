@@ -40,7 +40,7 @@ export default function MobileSchedule() {
       .then((res) => res.json())
       .then((data: DaySchedule[]) => {
         setSchedule(data);
-        if (data.length > 0) setSelectedDay(data[10].day);
+        if (data.length > 0) setSelectedDay(data[11].day);
       });
   }, []);
 
@@ -100,7 +100,7 @@ export default function MobileSchedule() {
               >
                 {/* FINAL TEXT — ДОТОР НЬ */}
                 {isFinalDay && (
-                  <div className="text-[9px] font-bold text-red-500 mb-0.5">
+                  <div className="text-[9px] font-bold text-gold mb-0.5">
                     FINAL
                   </div>
                 )}
