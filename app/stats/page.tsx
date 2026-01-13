@@ -141,12 +141,12 @@ export default function StatisticsSection() {
         {round === "final" && (
           <>
             <StatButton
-              text="Оновчтой довтолгоо"
+              text="Хамгаалалт"
               active={category === "attack_accuracy"}
               onClick={() => setCategory("attack_accuracy")}
             />
             <StatButton
-              text="Оновчтой давуулалт"
+              text="Оновчтой дамжуулалт"
               active={category === "serve_accuracy"}
               onClick={() => setCategory("serve_accuracy")}
             />
