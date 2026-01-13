@@ -100,9 +100,9 @@ export default function AdminPage() {
         >
           <option value="overall">Нийт</option>
           <option value="serve">Давуулалт</option>
-          <option value="serve_accuracy">Оновчтой давуулалт</option>
+          <option value="serve_accuracy">Оновчтой дамжуулалт</option>
           <option value="attack">Довтолгоо</option>
-          <option value="attack_accuracy">Оновчтой довтолгоо</option>
+          <option value="attack_accuracy">Хамгаалалт</option>
           <option value="block">Хаалт</option>
         </select>
       </div>
