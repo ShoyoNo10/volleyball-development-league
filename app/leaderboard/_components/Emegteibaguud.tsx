@@ -47,8 +47,8 @@ function Emegteibaguud() {
           </div>
           <div className="text-center border-r-gray-400 border-r">12</div>
           <div className="text-center border-r-gray-400 border-r">4</div>
-          <div className="text-center border-r-gray-400 border-r">35-24</div>
-          <div className="text-center font-bold ">29</div>
+          <div className="text-center border-r-gray-400 border-r">38-24</div>
+          <div className="text-center font-bold ">32</div>
         </div>
       </div>
 
