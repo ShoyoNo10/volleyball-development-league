@@ -40,7 +40,7 @@ export default function MobileSchedule() {
       .then((res) => res.json())
       .then((data: DaySchedule[]) => {
         setSchedule(data);
-        if (data.length > 0) setSelectedDay(data[11].day);
+        if (data.length > 0) setSelectedDay(data[12].day);
       });
   }, []);
 
